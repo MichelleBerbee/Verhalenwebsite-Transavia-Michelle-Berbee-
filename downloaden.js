@@ -14,14 +14,14 @@ downloadButton.addEventListener('click', download);
 function download() {
     var link = document.getElementById("download");
 
-    var img1 = "loader.gif";
+    var img1 = "raket.gif";
     link.src = img1;
 
-    var img2 = "gedownload.png";
+    var img2 = "knop@5x.png";
     link.src = img1;
 
     //3 sec de tijd om naar img 2 te veranderen 
     setTimeout(function () {
         link.src = img2;
-    }, 3000);
+    }, 4000);
 }
